@@ -1,46 +1,52 @@
-# awesome-resume
+## 介绍
 
-**本模版由[ResumeJob](https://resumejob.github.io/)贡献，ResumeJob能帮助你重新规划你的职业生涯。**
+本项目由**海外兔** (https://osjobs.net) 维护，海外兔团队由一线互联网面试官组成，提供海内外公司一对一入职套餐以及算法课程。
 
-## 求职准备
-请参考文章：
+**入职不成功不收费。详细信息请浏览[求职课程](https://osjobs.net/co/)**
 
-- [程序员如何写一份更好的简历](https://www.enginego.org/%E5%9F%BA%E7%A1%80/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E4%BB%BD%E6%9B%B4%E5%A5%BD%E7%9A%84%E7%AE%80%E5%8E%86/)
+## 相关项目
 
-- [如何准备技术面试](https://www.enginego.org/%E5%9F%BA%E7%A1%80/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/)
+- [大厂高频面经面试题](https://osjobs.net/topk/)
+- [免费项目实战课程](https://github.com/resumejob/free-project-course)
 
-- [程序员国外求职指南](https://www.enginego.org/%E5%9F%BA%E7%A1%80/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%9B%BD%E5%A4%96%E6%B1%82%E8%81%8C%E6%8C%87%E5%8D%97/)
 
-- [系统设计面试 101](https://www.enginego.org/%E5%9F%BA%E7%A1%80/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E9%9D%A2%E8%AF%95-101/)
+## 项目目录
+项目包括程序员简历例句，程序员简历范例，Java 简历模版，Python 简历模版，C++ 简历模版
 
-## 免费模版使用方法
+- 个人简介
+	- [简介](#通用简介)
+	- [前端](#前端简介)
+	- [移动端](#移动端简介)
+	- [后端](#后端简介)
+- 项目经验
+	- [通用](#通用经验)
+	- [前端](#前端经验)
+	- [后端](#后端经验)
+- 英文版本
+	- [简介](#summary)
+	- [项目经验](#project)
+ 
+## 个人简介
 
-- 把文件夹中的 HTML 文件中的文字内容修改为自己的实际情况。（预览修改效果时，请把浏览器缩放（"Command"+"+"）成 150% 查看实际转出PDF效果。）字体默认按照苹方体，冬青黑体，黑体，微软雅黑的顺序渲染。
-- 按照你的语言习惯把 HTML 文件转变成 PDF 格式，这里附了一个 Python 脚本 convert.py，需要先安装 [wkhtmltopdf](https://wkhtmltopdf.org/) 和 [pdfkit](https://github.com/JazzCore/python-pdfkit)，
+### 通用简介：
 
-> 例如Windows下安装的话首先到[这里](https://wkhtmltopdf.org/downloads.html)下载，安装的时候请记住安装目录，安装完成后把安装目录下bin目录中的可执行wkhtmltopdf.exe文件放在模版目录下（如first/wkhtmltopdf.exe，second/wkhtmltopdf.exe）。
-
-然后运行 python3 convert.py 即可。当然你也可以使用自己熟悉的语言来转换，例如 Javascript 可以使用 [pdfkit](https://github.com/devongovett/pdfkit)。
-
-- 收费模版请通过[这里](https://resumejob.github.io/#price-table)下载。
-
-#### 收费模版只负责提供HTML代码以及解决HTML代码bug，购买前请确保懂得如何将HTML转换为PDF。（默认提供了 Python 的解决方案）
-
-![模版](https://raw.githubusercontent.com/resumejob/awesome-resume/master/imgs/all.jpg) 
-## 个人简介例句
-
-### 通用：
-
-- 有良好的代码风格，通过添加注释提高代码可读性，注重代码质量，研读多个开源项目，学习改善代码的健壮性与扩展性。
+- 有良好的代码风格，通过添加注释提高代码可读性，注重代码质量，研读过 XXX，XXX等多个开源项目源码从而学习增强代码的健壮性与扩展性。
 - 具备良好的代码编程习惯及文档编写能力，参与多个高性能网站架构设计与系统核心部分代码编写、重构，能进行技术攻关，突破关键技术瓶颈。
 - 负责根据公司业务及目标引进人才、培养新人、规划团队人员、并建立完善的绩效考核制度有效留住人才，提高工作效率。
 - 带领 10 人团队完成分布式系统的难点分析与架构设计工作，承担核心功能 代码编写，开发与维护系统核心模块。使用 Selenium 等工具协助持续集成 与自动化部署，保证代码的可靠和安全。
+- 参与 XXX 项目的全流程，包括需求评审、设计评审，制定测试计划，设计和执行测试用例，及测试回归，进行缺陷跟踪和软件质量分析等。
+- 善于发现以及解决问题，持续改进 XXX 系统的架构和核心技术，保证系统的稳定性、高性能、高可用性和可扩展性；
+- 善于利用工具和代码减少重复性劳动，开发了 XXX 工具提高团队的工作效率；
 - 基于海量数据，挖掘信息，建立模型，并将机器学习算法应用于业务环节， 提升公司各环节效率。调研新技术在大数据领域的应用价值，以技术驱动产 品，把最合适的算法应用到各种有挑战性的现实场景中。
 - 负责公司技术文档的编写以及维护，定期 Review 团队的代码，与团队共同 学习以及成⻓。
+- 去年度组织了十多次技术分享活动，主题包括 XXX，XXX。
 - 熟悉常用开发版的 Linux 服务器安装、配置和调优，熟悉常用开发环境如 **Apache、MySQL、Nginx** 等工具的部署、设置及调优。
 - 有良好的代码编写习惯，具有良好的沟通、协作能力能力，有良好的职业道德和较强的工作责任感。
 - 理解操作系统中**进程、线程、死锁、虚拟化、文件系统**等原理和简单实现。
-- 熟悉Web编程，能够使用主流框架进行网络页面的开发。
+-  拥有扎实的统计学功底，对数据敏感、深刻理解和熟练运用各类主流机器学习算法，包括线性模型、树模型、概率图模型、深度学习模型等。
+-  拥有5年以上工业界通用机器学习算法项目的研发经历，熟悉大规模机器学习、深度学习、分布式计算等相关技术。
+-  动手能力强，对算法有极大热情，具备良好的文献学习能力，能对算法进行实现和持续优化。
+- 熟悉Web编程，能够使用主流框架进行网络页面的开发。推动研发流程过程改进，影响和推动整个研发团队的质量意识，能提升整个研发效能。
 - 和产品经理密切配合，从需求出发，主导系统分析与架构设计工作，承担核心功能代码编写，开发与维护系统公用核心服务。
 - 有**大型互联网分布式系统**的架构设计和开发经验，拥抱新技术，有很强的学习能力。
 - 喜欢钻研语言底层与框架原理，熟悉多种算法、函数式开发等编程技术，能流畅阅读英文文档。
@@ -52,8 +58,11 @@
 - 对技术有强烈兴趣，学习能力强，技术视野广阔，乐于不断学习新知识；
 - 具备扎实的 **OOP** 及相关软件开发技能，能根据架构要求，开发设计可扩展，可复用，高性能的功能模块。
 - 掌握软件工程思想，能够对复杂任务分解，熟悉软件迭代开发方法，具备良好的沟通能力和解决问题的能力。
+- 了解 **HTTP，TCP/IP，Websocket 协议**，熟悉处理网络请求，**XML 和 JSON** 数据解析以及本地缓存。
+- 熟悉 **Socket 网络编程**，了解 **TCP、UDP、HTTP、FTP** 等常用网络协议。
+- 熟悉移动网络通信机制，对 **HTTP、TCP/IP 协议**有较深刻的理解，熟悉网络性能优化且有成功实施经验。
 
-### 前端：
+### 前端简介：
 
 - 对前后端分离模式，可视化开发深入理解，对 Vue 和 react 有丰富的开发经验，具备一定的框架设计能力。
 - 对 Javascript 中闭包、函数式语言等概念有清晰的认知，对常见库的源码实现有了解。
@@ -61,11 +70,8 @@
 - 熟悉 Node.js 开发，熟练使用 npm, webpack, gulp 等工具。熟悉前端性能的优化，熟悉使用 Chrome，Safari 等前端调试工具。
 - 熟悉 Node.js 以及 V8 的性能和稳定性优化，能对系统整体性能进行评估，解决内存瓶颈。
 
-### 移动端：
+### 移动端简介：
 
-- 了解 **Http，TCP/IP，Websocket 协议**，熟悉处理网络请求，**XML和JSON** 数据解析以及本地缓存。
-- 熟悉 **Socket 网络编程**，了解 **TCP、UDP、HTTP、FTP** 等常用网络协议。
-- 熟悉移动网络通信机制，对 **HTTP、TCP/IP 协议**有较深刻的理解，熟悉网络性能优化且有成功实施经验。
 - 熟练掌握 **Android UI** 开发，包括各种控件、布局方式、动画和自定义控件的使用方法。
 - 熟悉Android的中间件开发流程和 **Android Framework** 开发技术，能独立进行 Android 应用程序开发。
 - 熟练移动端项目搭建与架构，灵活使用 **XIB** 和 **Storyboard**，掌握 iOS 各版本的适配及 **Auto Layout、Content Hugging** 等布局。
@@ -87,14 +93,16 @@
 - 熟悉 **Objective-C 与 Swift 语言**，掌握 iOS 开发中用代码与故事板实现 UI，网络通信，数据库等的基础知识，掌握 XCode 常用的调试技巧与测试方法，懂得 iOS 性能优化的常见思路。
 - 熟悉 **JS 与 WebView** 交互，熟悉第三方登录，分享，字符功能，熟悉 APP 上线发布，版本迭代的全部流程，有多个项目上线经验。
 
-### 后端：
+### 后端简介：
 
 - 熟悉使用 **Tomcat** 应用服务器的应用部署和配置，熟悉 **jenkins** 自动化部署、测试。
 - 了解数据分析库 **Numpy 和 Pandas、matplotlib** 的原理，有数据处理、分析和建模的经验。
 - 掌握 **Django，Flask** 等开源框架设计原理及运行机制，熟悉 **LAMP/LNMP** 系统架构设计，有高并发 WEB 应用架构经验。
 - 熟悉 **Java 语言**，掌握 **Spring、Springboot** 等主流框架，了解 **Memcache、Redis** 等缓存组件与 **RabbitMQ** 异步处理机制。
 - 了解高可用、高并发，高负载的架构，具有分布式架构的系统开发能力。
+- 熟悉流式计算，olap，列式存储等技术原理。熟悉常用机器学习、深度学习算法，具有将大数据或机器学习应用于虚拟网络的经验。
 - 熟练掌握常见的关系型数据库以及非关系型数据库，理解其使用场景及限制。
+- 负责公司服务器的规划、调试优化、日常监控、故障处理、数据备份、日志分析、性能瓶颈分析等工作。并负责线上服务器实时维护、提高系统的可用率及可维护性。
 - 熟悉 **Spring、MyBatis、Hibernate 框架**，并参与设计多个高可用性项目。
 - 熟练使用 **Oracle/MySQL** 数据库，对于 **Mongodb** 等 NOSQL 数据库具有一定的了解，拥有一定的数据库设计能力和优化能力。
 - 熟悉 **TCP/IP、DNS** 等底层协议，精通 **HTTP 协议**，熟练掌握各种工具进行网络问题诊断。
@@ -112,6 +120,8 @@
 - 深熟练掌握全栈开发，对后端到前端的技术原理有全面的认识，熟悉网站开发流程，能够独立搭建完整的网站。
 - 深入理解数据结构与算法，并能够实现**哈希表、链表、队列、栈、二叉树**等数据结构。
 - 扎实的 Python 基础，熟悉文件 I/O、多线程、装饰器、基础数据结构及模块化。
+- 使用 GitLab 等工具对项目进行持续集成，保证项目能够快速上线以及及时回滚
+- 设计 MySQL 基于 XXX 搭建主从架构，使用 Mycat 实现分库分表、读写分离以及高可用
 - 熟练基于 **Scrapy** 框架进行分布式爬虫，利用 **Xpath，BeautifulSoup，Re** 进行数据清洗，并解决验证码，登录，Javascript混淆，等各种反爬措施。
 - 熟悉 Socket 网络编程、了解**多线程、多进程、异步I/O、I/O多路复用如 select、poll、epoll**的原理及使用。
 - 使用 Flask，SQLAlchemy, Mysql，Redis 协助完成数据管理模块，并通过测试工具优化 15% 后端 API 接口性能。
@@ -119,12 +129,13 @@
 - 熟练使用 **Selenium, Puppeteer** 进行页面测试，构建单元测试，自动化测试
 - 熟悉 **Django web** 开发框架，熟悉 MVC 模型，熟悉中间件、Admin 站点管理、图片上传、分页，邮件传输。
 - 掌握 MySQL 数据库的基本原理与常用语法，了解 **MongoDB、Redis** 等 NoSQL 数据库；
+- 熟悉 Mysql 工作原理及程序上如何高性能配置，了解主流开源 NoSQL 系统（Memcached、Redis、MongoDB等）的使用和原理，有分布式系统使用经验；
 - 使用 **Scrapy** 框架对采集目标进行数据收集，跟踪网页链接构建分类信息字段分析目标网址，使用** Xpath, re **提取信息。通过抓包工具获取 Ajax 链接并解析 json 数据。
 
 
-## 项目经验例句
+## 项目经验
 
-### 通用
+### 通用经验
 - 独自负责客户端从无到有的产品设计，研发，流程图及开发文档，用两个月的时间独立开发了初版的 APP，集成了支付模块、文件下载，数据本地缓存功能。
 - 负责项目管理，产品研发部门的工作任务分配，工作细化划分，保证项目按时上线。
 - 与产品经理保持沟通，对订单管理模块进行维护与高效重构，一个月修复超过后台管理系统 30个 Bug。
@@ -133,12 +144,14 @@
 - 作为软件开发团队的核心成员，为大数据应用设计开发高质量的软件平台。对微服务架构组件有实践经验，理解常见架构的高可用性与可扩展性。
 - 有项目云服务化或者相关开发以及项目调优，部署经验。熟悉大规模、高并发系统架构设计，能独立完成系统的设计及开发。
 
-### 前端
+### 项目经验
 - 对 **ListView，ConvertView** 进行优化，并通过 **ViewHolder** 缓存 Item 条目，减少重复代码的冗余，减少 **30%** 页面加载时间。
 - 使用多个类实现不同功能，如 Loading 类负责加载数据和布局文件，Adapter 类负责 ListView 控件与展示数据。实现项目模块化开发，降低组件耦合度。
 - 使用 **AsyncSocket** 进行完成即时通讯功能，并协助组长完成客户端与嵌入式网的 **Socket** 对接与通信，实现通过 iOS 设备控制插座的开关、定时开关、温度检测及报警等 8个 功能。
 - 熟悉常见的前端调试工具，能够高保真还原设计稿，具备良好的代码风格以及接口、架构设计能力。熟悉 JS 性能优化，熟练解决各种浏览器兼容问题。
 - 深入理解 **W3C** 标准与 **ES** 规范，熟悉 **HTML、CSS、JavaScript** 等 **Web** 基础以及常用浏览器兼容方案。
+- 深入了解 iOS 页面设计和数据传递实现原理，实现 App 常见的新增，读取，修改，删除功能，
+- 利用 Vuex 的 getters 搭配 filter 实现商品搜寻及分类的功能，方便顾客查找需要的商品。使用 VeeValidate 实现表单验证。
 - 熟练掌握 PC 端和移动端的布局方式，如响应式布局以及流式布局，并能根据业务需求，封装高复用、可维护性好的前端组件。
 - 熟练掌握浏览器渲染原理以及机制，对至少一种主流前端框架有深入应用并能够深入理解其设计原理。
 - 参与开发、持续改进前端页面设计平台，通过通过开发工具、改进流程，保证前端业务开发的高效性。
@@ -149,16 +162,24 @@
 - 对应用进行架构，兼容到 **iOS11** 最新版本，核心功能包括获取 **GPS**，二维码扫码。同时使用户可以进行评论与意见反馈。
 - 使用**多线程**定时器实现图片轮播器效果，使用 CoreData 对首页数据进行数据储存以及实现搜索界面的模糊搜索功能。
 - 封装 FMDatabaseQueue 类防止多线程访问数据库死锁，修改后比起系统原生框架拥有较高的效率和更为方便的调用方式。
-- 使用** JavaScript **与原生** Objective-C **网页交互,实现点击网页按钮跳转功能。
+- 使用 **JavaScript** 与原生 **Objective-C** 网页交互,实现点击网页按钮跳转功能。
 - 使用FTP服务器实现CDN分级推送，实现用户上传文件预加热流程，提高50%缓存命中率。
+- 在管理处担任实习生，从设定 Linux 环境，编译 MySQL，设定 Apache 与 Nginx 等服务器，到最后 PHP 的开发环境及参数设定，学习架设 LAMP，XAMMP 等开发环境。
+- 
 
 ## English Version
 
 ### Summary
 - I have defined and executed the technical roadmap for multiple startups. This involved designing and implementing infrastructure, backend and frontend architecture and building several engineering teams from scratch including hiring, training and selection of appropriate working practices.
 - I enjoy proactively finding structured, lasting solutions to interdisciplinary and complex problems with minimal dependency on other stakeholders. A strong believer in the performance of teams, previous management experience and my cross domain expertise allow me to significantly add value to a team in multiple ways. References available upon request.
+- Develop, maintain and support application programs for administrative, Web and mobile systems using Java and related tools. Analyze code for system testing and debugging; create test transactions to find, isolate and rectify issues; and manage a team of three programmers.
 - Highly innovative. Good Analytical and Entrepreneurial skills that lead to find out newer ideas from existing systems and data.Highly adaptable. Continual self-learner. Enjoys working both as a team member and individual.
 - Leveraged responsive tools to consistently complete product deliverables ahead of schedule.
+- Implemented a XXX module for Project Structure analyzes tool that allows it to produce structure reports.
+- Lead programmer with a track record of incorporating user and business requirements into cost-effective, secure and user-friendly solutions known for scalability and durability.
+- Knowledge of commercial and open source software/database engineering tools, design techniques, CASE tools and security standards.
+_ Proven leader and project manager; drive system architecture decisions and lead projects from concept through the release process.
+- Innovator of next-generation solutions, systems and applications giving companies a competitive edge and producing outstanding results for customers.
 - Designed and developed an auto tweeting utility that gave exposure to buyers and sellers in social media.
 
 ### Project
@@ -166,6 +187,16 @@
 - Developed team management module for in-house CRM system in PHP that helped managers to assign members and keep track of their performance by using comprehensive dashboards and reports.
 - Sourced, set up, and deployed Engineering order management system organizing and tracking support requests.
 - Design and developed different admin and front-end section of the application that provided a gateway to members to interact with each other as well as customer support.
+- Established and launched XXX with animation styles to guide users on how to operate in Creative Tool section for XXX monthly active users.
+- Participated in the pre-launch stage and the construction of the back end for project XXX.
+- Reengineered multiple systems that fueled improvements to productivity, efficiency, uptime and accuracy for global business operations. Developed code, system design and test/QA plans for all solutions and often coordinated the national or international rollout.
+- Led, architected and participated in the design, testing and deployment of client/server, multitier applications, ActiveX and related components.
+- Developed new procedures for requirements gathering, needs analysis, testing, scripting and documentation to strengthen quality and functionality of business-critical applications.
+- Developed large-scale, portable, thread-safe and ultra-high performance foundation and application infrastructure libraries.
+- Trained and mentored junior programmers in programming methodologies and best practices.
+- Delivered back-office tools supporting ecommerce initiatives, enabling company to compete more effectively in the marketplace through search-engine optimization.
+- Served as a core group member in defining and prioritizing technology investments for the next two years, ensuring the alignment of process, technology and business objectives.
+- Conceptualized, planned, launched and currently chair the Cybersecurity Committee, a company-wide group focused on improving security of the business’ information infrastructure.
 - Developed the customized FileNET Capture Application in VB.NET and MSSQL Server2000 that enhanced the basic functionality by adding role management system to have a complete control in different phases.
 - Collaborated with senior consultants (developers, designers, UX designers) and project/product managers in a small, agile team building responsive, cross-browser compatible and scalable web apps. Daily stand-up. Peer reviewing PR. Involved in front-end & back-end. Exposed to UX.
 - Developed the front-end of customers’websites and newsletters and of the company's own web portals.
@@ -173,6 +204,9 @@
 - Coordinated recruiting, interviewing, training of interns.
 - Implemented new shadowing and pseudo ambient occlusion rendering with fast performance.
 - Created and renovated websites for dozens of clients from many different industries. Attended client meetings to discuss their business goals and milestones. Client websites range from CMS-built to bespoke websites from the ground up. Development of a CRM application for a long-term client using PHP and AJAX.
+- Led solutions engineering that involved process automation, macro conversion and functionality enhancement. Replaced time-consuming, error-prone manual processes with elegant, automated solutions.
+- Developed and implemented cross-platform, Java-based POS system. Completed project under budget and three weeks ahead of deadline.
+- Coded new solutions that increased availability and scalability by 45% and 75%, respectively.
 - Redesigned customer-facing websites and internal tools. Designed and implemented new products and features using Angular JS,Twitter Bootstrap and an internal API based on Django REST Framework.
 - Responsible for the design and production of marketing materials including landing pages, banner ads, billboards, email newsletters and presentations. Screened and interviewed engineering candidates.
 - Redesigned and implemented new features for the web-based version of a major Electronic Health Record platform. Implemented design patterns using Twitter Bootstrap and jQuery.
@@ -273,4 +307,3 @@ A self-starter and eager to learn new things. I continuously seek to build my sk
 > 
 > Sincerely,
 > 
-> XXX
